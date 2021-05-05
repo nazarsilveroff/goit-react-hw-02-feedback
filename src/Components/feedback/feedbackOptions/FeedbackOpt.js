@@ -3,7 +3,7 @@ import propTypes from "prop-types";
 const FeedbackOpt = ({ goodCounter, neutralCounter, badCounter }) => {
   return (
     <>
-      <h1>Please leave feedback</h1>
+      
       <button onClick={goodCounter} type="button">
         GOOD
       </button>
